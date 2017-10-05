@@ -112,11 +112,11 @@ function endGame() {
 
 function moveDodger(e) {
   e.preventDefault()
-   if(e.which == LEFT_ARROW) {
-     moveDodgerLeft()
-   } else if(e.which == RIGHT_ARROW) {
-     moveDodgerRight()
-   }
+  if(e.which == LEFT_ARROW) {
+    moveDodgerLeft()
+  } else if(e.which == RIGHT_ARROW) {
+    moveDodgerRight()
+  }
 }
 
 function moveDodgerLeft() {
