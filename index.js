@@ -67,8 +67,14 @@ function createRock(x) {
       endGame()
     }
 
-    
-    
+    rock.style.top = `${top += 1}px`
+
+    if(top !> 140) {
+        window.requestAnimationFrame(moveRock)
+    } else {
+      
+    }
+
   }
 
   // We should kick of the animation of the rock around here
