@@ -109,7 +109,7 @@ function createRock(x) {
  */
 function endGame() {
   clearInterval(gameInterval)
-  rocks.length = 0
+  ROCKS.length = 0
   $(window).off("keydown")
 }
 
