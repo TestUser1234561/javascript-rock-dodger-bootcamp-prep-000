@@ -63,7 +63,9 @@ function createRock(x) {
    * seems like a good pace.)
    */
   function moveRock() {
-
+    if(checkCollision(rock)) {
+      endGame()
+    }
   }
 
   // We should kick of the animation of the rock around here
