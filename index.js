@@ -108,6 +108,7 @@ function createRock(x) {
  * Finally, alert "YOU LOSE!" to the player.
  */
 function endGame() {
+  clearInterval(gameInterval)
   rocks.length = 0
   $(window).off()
 }
