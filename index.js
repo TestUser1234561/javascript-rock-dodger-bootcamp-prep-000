@@ -72,7 +72,7 @@ function createRock(x) {
     if(top !> 140) {
         window.requestAnimationFrame(moveRock)
     } else {
-      
+      rock.remove()
     }
 
   }
