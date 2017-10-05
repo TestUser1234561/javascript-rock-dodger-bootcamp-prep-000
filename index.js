@@ -109,7 +109,7 @@ function createRock(x) {
  */
 function endGame() {
   rocks.length = 0
-  window.off()
+  $(window).off()
 }
 
 function moveDodger(e) {
