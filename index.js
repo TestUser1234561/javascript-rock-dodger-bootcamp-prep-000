@@ -135,6 +135,7 @@ function moveDodgerLeft() {
   var horzPos = DODGER.style.right
 
   function step() {
+    console.log("WDWd");
     DODGER.style.right = `${right += 4}px`
   }
 
