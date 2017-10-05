@@ -66,6 +66,9 @@ function createRock(x) {
     if(checkCollision(rock)) {
       endGame()
     }
+
+    
+    
   }
 
   // We should kick of the animation of the rock around here
