@@ -133,6 +133,7 @@ function moveDodgerLeft() {
    * (mabye 4 pixels?). Use window.requestAnimationFrame()!
    */
   var horzPos = DODGER.style.left
+  var moved = 0;
 
   function step() {
     DODGER.style.left = `${horzPos += 1}px`
