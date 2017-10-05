@@ -154,7 +154,7 @@ function moveDodgerRight() {
 
   function step() {
 
-    if(horzPos == 0) {
+    if(horzPos == 400) {
       return;
     }
 
