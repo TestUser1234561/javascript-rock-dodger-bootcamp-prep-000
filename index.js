@@ -69,7 +69,7 @@ function createRock(x) {
 
     rock.style.top = `${top += 1}px`
 
-    if(top !> 140) {
+    if(top !> 400) {
         window.requestAnimationFrame(moveRock)
     } else {
       rock.remove()
