@@ -137,7 +137,7 @@ function moveDodgerLeft() {
   function step() {
     console.log("WDWd");
     DODGER.style.right = `${right += 1}px`
-    
+
     if (horzPos < 4) {
       window.requestAnimationFrame(step)
     }
