@@ -136,7 +136,7 @@ function moveDodgerLeft() {
   var moved = 0;
 
   function step() {
-    DODGER.style.left = `${horzPos += 1}px`
+    DODGER.style.left = `${horzPos -= 1}px`
     moved += 1
 
     if (moved < 4) {
