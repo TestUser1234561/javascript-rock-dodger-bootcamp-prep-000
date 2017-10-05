@@ -135,7 +135,6 @@ function moveDodgerLeft() {
   var horzPos = 0
 
   function step() {
-    console.log("WDWd");
     DODGER.style.right = `${horzPos += 1}px`
 
     if (horzPos < 4) {
