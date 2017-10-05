@@ -109,7 +109,7 @@ function moveDodger(e) {
     e.preventDefault()
     e.stopPropagation()
     moveDodgerRight()
-  } else if (e.which !== LEFT_ARROW && e.which !== RIGHT_ARROW) { return false }
+  }
 }
 
 function moveDodgerLeft() {
