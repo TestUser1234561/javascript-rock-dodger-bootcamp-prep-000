@@ -97,7 +97,7 @@ function createRock(x) {
 function endGame() {
   clearInterval(gameInterval)
   ROCKS.length = 0
-  $(window).off("keydown")
+  window.removeEventListener('keydown', moveDodger)
 }
 
 function moveDodger(e) {
